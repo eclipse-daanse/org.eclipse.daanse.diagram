@@ -69,7 +69,7 @@ public final class SvgElem {
         return this;
     }
 
-    /** Add a raw SVG fragment. Useful for <defs> or hand-written snippets. */
+    /** Add a raw SVG fragment. Useful for defs or hand-written snippets. */
     public SvgElem raw(String xml) {
         if (xml != null && !xml.isEmpty()) {
             children.add(new Raw(xml));
