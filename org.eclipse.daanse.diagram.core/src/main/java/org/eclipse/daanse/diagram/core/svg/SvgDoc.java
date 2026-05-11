@@ -17,7 +17,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
 
-/** Thin wrapper that assembles a root <svg> with viewbox, <defs> and <style>. */
+/** Thin wrapper that assembles a root svg with viewbox, defs and style. */
 public final class SvgDoc {
 
     private final SvgElem root;
